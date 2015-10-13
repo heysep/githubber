@@ -10,6 +10,7 @@ module Githubber
 			}
 		end
 
+
 		#implement 4 methods below =)
 
 		# add a new issue
