@@ -9,8 +9,6 @@ module Githubber
 				"User-Agent"	=> "HTTParty"
 			}
 		end
-
-
 		#implement 4 methods below =)
 
 		# add a new issue
