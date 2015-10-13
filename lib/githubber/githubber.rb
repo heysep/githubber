@@ -1,11 +1,9 @@
-require "httparty"
 require "pry"
-
+require "httparty"
 require "githubber/version"
 require "githubber/pull_requests"
-require "githubber/issues"
 
 module Githubber
-  # Your code goes here...
-  binding.pry
+	#code here
+binding.pry
 end
