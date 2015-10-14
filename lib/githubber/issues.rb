@@ -12,8 +12,8 @@ module Githubber
 		#implement 4 methods below =)
 
 		# add a new issue
-		def add_issue(owner, repo, title)
-			options = { title: title }
+		def add_issue(assignee, body, owner, repo, title)
+			options = { title: title, body: body, assignee: assignee }
 			self.class.post("/repos/#{owner}/#{repo}/issues", :headers => @auth, :body => options.to_json)
 		end
 
