@@ -24,7 +24,7 @@ module Githubber
 
 		# get the "contents" of a gist
 		def get_gist_content(id)
-			response = self.class.get("/gists/#{id}", :headers => @headers)
+			self.class.get("/gists/#{id}", :headers => @headers)
 			response["files"].first[1]["content"]
 		end
 
