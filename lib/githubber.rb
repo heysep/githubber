@@ -10,7 +10,7 @@ require "githubber/teams"
 module Githubber
   # Your code goes here...
   	class App
-
+  		attr_reader :teams, :issues
 	  	def initialize
 	  		puts "What is your auth token?"
 	  		token = gets.chomp
@@ -38,5 +38,6 @@ module Githubber
 	end
 
 	app = App.new
+
 	binding.pry
 end
