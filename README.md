@@ -2,15 +2,15 @@
 
 This is a ruby gem I built as part of The Iron Yard Academy.
 
-# Objectives
+## Objectives
 
-## Learning Objectives
+### Learning Objectives
 
 * Better understand how to interact with external APIs
 * Have more experience using Hashes and passing params to an API
 * Get some practice branches, pull requests, and pair programming
 
-## Performance Objectives
+### Performance Objectives
 
 * HTTParty to make API requests
 * Headers to authenticate API requests
