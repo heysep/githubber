@@ -2,6 +2,8 @@
 
 This is a ruby gem I built as part of The Iron Yard Academy.
 
+# Objectives
+
 ## Learning Objectives
 
 * Better understand how to interact with external APIs
@@ -9,8 +11,6 @@ This is a ruby gem I built as part of The Iron Yard Academy.
 * Get some practice branches, pull requests, and pair programming
 
 ## Performance Objectives
-
-After completing this assignment, you be able to effectively use
 
 * HTTParty to make API requests
 * Headers to authenticate API requests
