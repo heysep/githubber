@@ -1,28 +1,54 @@
 # Githubber
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/githubber`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is an app I built as part of The Iron Yard Academy.
+I completed the Normal and Hard Mode objectives.
 
-TODO: Delete this and the text above, and describe your gem
+## Objectives
 
-## Installation
+### Learning Objectives
 
-Add this line to your application's Gemfile:
+* Better understand how to interact with external APIs
+* Have more experience using Hashes and passing params to an API
+* Get some practice branches, pull requests, and pair programming
 
-```ruby
-gem 'githubber'
-```
+### Performance Objectives
 
-And then execute:
+After completing this assignment, you be able to effectively use
 
-    $ bundle
+* HTTParty to make API requests
+* Headers to authenticate API requests
+* Be able to create and switch branches with git
 
-Or install it yourself as:
+## Details
 
-    $ gem install githubber
+### Normal Mode
 
-## Usage
+4 steps here...
 
-TODO: Write usage instructions here
+1. Write a class to access the API as described in the above gist.
+
+2. Merge the open pull requests with today's code into master.
+
+   You are likely to encounter difficulty merging aka
+   "merge conflicts". Consult Rickard or I for help!
+
+3. Once both pull requests are merged, return to the master
+   branch with `git checkout master`.
+
+4. Get your master branch up to date with what is on github.
+
+   If you are the owner of the *original repo*, getting master up
+   to date is as simple as running `git pull origin master`.
+
+   If you are the owner of the *forked repo*, you have to first
+   teach your fork about the original copy by adding a remote.
+   Run something like `git remote add upstream https://github.com/YOUR-PARTNER/THEIR-REPO`. Then you can run `git pull upstream master`.
+
+### Hard Mode
+
+Write some code in the main `lib/githubber.rb` file that
+uses the classes to close your github issue and leave a comment
+linking to your pull request.
 
 ## Development
 
